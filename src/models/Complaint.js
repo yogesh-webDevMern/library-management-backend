@@ -1,6 +1,13 @@
 const mongoose = require("mongoose");
 
-const CATEGORIES = ["freshener", "chair", "light", "water", "washroom", "ac", "wifi", "other"];
+const CATEGORIES = [
+  "cleanliness",
+  "chair",
+  "lighting",
+  "water",
+  "washroom",
+  "other"
+];
 
 const complaintSchema = new mongoose.Schema(
   {
